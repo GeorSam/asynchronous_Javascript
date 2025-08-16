@@ -1,6 +1,6 @@
 const getData = async () => {
   //we use the keyword async to mark the arrow function as asynchronous, that it always returns a Promise
-  const response = await fetch("/dataSet1.json"); //the awaits keyword basically tells fetch -which returns a Promise-, that, when there is a response insert it into response const
+  const response = await fetch("/dataSet1.json"); //the await keyword basically tells fetch -which returns a Promise-, that, when there is a response insert it into response const
   const data = await response.json(); //this returns a promise too
   //multiple chaining can go here
 
